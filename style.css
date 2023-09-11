@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(249, 249, 245);
+    display:flex;
+    width: 80%;
+    margin:auto;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-shadow: rgba(0,0,0,0.16) 0px 10px 36px 0px ,rgba(0,0,0,0.6) 0px 0px 0px 1px;
+}
+.navlist{
+    display: flex;
+    gap: 40px;
+}
+li{
+    list-style: none;
+}
+li a{
+     text-decoration: none;
+     color: black;
+     font-size: 18px;
+}
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span,.active, a:hover{
+    color: #7ab730;
+
+
+}
+.section{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("images/nature.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+h1,h3{
+    color: white;
+}
+h1{
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px 0px;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    padding: 20px 40px ; 
+    font-size:18px ;
+    color: white;
+    background-color: #7ab730;
+    border: none;
+    cursor:pointer;
+}
+button:hover{
+    background-color: #7ab730;
+}
